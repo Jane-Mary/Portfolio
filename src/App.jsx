@@ -35,7 +35,7 @@ const App = () => {
   return (
     <>
       <div id="home" className="bg-[#faf8ed]  p-2">
-      <div className="sticky top-0 z-50 flex justify-between p-4 bg-inherit shadow-sm">
+      <div className="sticky top-0 z-50 flex justify-between p-4 bg-inherit shadow-sm mb-7 ">
       <div className="flex flex-col items-center mb-2">
         <div className="flex items-center">
           <img src="src/assets/react.svg" alt="logo" className="h-8" />
@@ -65,13 +65,13 @@ const App = () => {
         <div>
           <div className="flex flex-col justify-between">
             <div className="flex items-center justify-center pb-4">
-              <img src="" alt="image" className="rounded" />
+              <img src="src/assets/image.png" alt="image" className="rounded-full border border-black object-cover w-80 h-80" />
             </div>
             <div>
-              <h2 className="text-center pb-4">
-                Hi, I'm <span>Jane-Mary</span>
+              <h2 className="text-center pb-4 font-extrabold text-4xl">
+                Hi, I'm <span className="text-[#7a141e]">Jane-Mary</span>
               </h2>
-              <p className="text-base text-justify pb-4 sm:text-lg">
+              <p className="text-base text-justify pb-4 ">
                 A motivated Front-End Developer with hands-on experience in
                 building responsive, dynamic web applications. I am passionate
                 about crafting visually appealing and user-friendly interfaces
@@ -267,6 +267,11 @@ const App = () => {
           <h2 className="text-2xl font-bold text-[#7a141e] mb-6 text-center">
             Contact Me
           </h2>
+          <div className="">
+          <div className="">
+            <img src="src/assets/Messages-rafiki.svg" alt="" />
+          </div>
+          <div className="">
           <form method="post" action="#">
             <div className="mb-4">
               <label
@@ -320,6 +325,8 @@ const App = () => {
               </button>
             </div>
           </form>
+          </div>
+          </div>
         </div>
         <div className="fixed bottom-0 right-0 p-4 rounded-2xl">
           <img
